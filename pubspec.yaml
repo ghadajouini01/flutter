@@ -1,0 +1,49 @@
+name: clone_jumia
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^1.2.0
+  mime: ^1.0.0
+  intl: ^0.18.1
+  smooth_page_indicator: ^1.2.0
+  loader_overlay: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/welcome.png
+    - assets/splash.png
+    - assets/splash2.png
+    - assets/splash3.png
+    - assets/bubble1.png
+    - assets/bubble2.png
+    - assets/bubble3.png
+
+  # Uncomment this section to add custom fonts to your application
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
